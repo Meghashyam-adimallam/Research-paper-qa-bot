@@ -1,0 +1,46 @@
+/* Chat container */
+html, body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+section.main {
+    padding: 20px;
+}
+
+/* Chat bubbles */
+.chat-message {
+    margin-bottom: 1rem;
+}
+
+.chat-message.user {
+    background-color: #e0f7fa;
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 80%;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.chat-message.ai {
+    background-color: #f1f8e9;
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 80%;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+/* Sidebar tweaks */
+.css-1d391kg {
+    background-color: #f0f4f8;
+}
+
+.sidebar .stButton>button {
+    background-color: #dce775;
+    color: black;
+}
